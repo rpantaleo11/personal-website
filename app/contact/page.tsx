@@ -70,7 +70,7 @@ export default function Contact() {
                     <span className="text-lg">📈</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-charcoal-900 mb-1">Marketing & Growth</h3>
+                    <h3 className="font-semibold text-charcoal-900 mb-1">Growth Marketing</h3>
                     <p className="text-sm">Need help scaling your business? That's what PCG does.</p>
                   </div>
                 </div>
