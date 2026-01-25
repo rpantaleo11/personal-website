@@ -108,11 +108,9 @@ export default function Business() {
                   "Ryan helped us develop a comprehensive digital marketing strategy that drove high-quality traffic which converted to offline sales. I would highly recommend Ryan to anyone looking to grow their business."
                 </p>
                 <div className="flex items-center gap-4">
-                  <img 
-                    src="/testimonials/justin-woolverton.jpg" 
-                    alt="Justin Woolverton"
-                    className="w-14 h-14 rounded-full object-cover bg-charcoal-200"
-                  />
+                  <div className="w-14 h-14 rounded-full bg-eucalyptus-600 flex items-center justify-center text-white font-bold text-lg">
+                    JW
+                  </div>
                   <div>
                     <p className="font-semibold text-charcoal-900">Justin Woolverton</p>
                     <p className="text-sm text-charcoal-500">Founder & CEO, Halo Top Creamery</p>
