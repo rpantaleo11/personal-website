@@ -10,61 +10,6 @@ const fadeIn = {
   transition: { duration: 0.6 },
 };
 
-const clients = [
-  {
-    name: 'LogicMonitor',
-    logo: 'https://www.logicmonitor.com/wp-content/uploads/2025/03/lm-logo-color.png',
-    website: 'https://www.logicmonitor.com'
-  },
-  {
-    name: 'Egnyte',
-    logo: 'https://www.egnyte.com/themes/custom/egnyte/logo-light.svg',
-    website: 'https://www.egnyte.com',
-    invertOnWhite: true
-  },
-  {
-    name: 'CoachRX',
-    logo: 'https://images.squarespace-cdn.com/content/v1/63b49df75f1a7c36531011cd/9c39f3bd-6c1c-4d8f-a0f2-04c75f1d8738/OPEX_CoachRx_Primary_Logo__WhiteLightBlue.png',
-    website: 'https://www.coachrx.app',
-    invertOnWhite: true
-  },
-  {
-    name: 'GoatFoods',
-    logo: '',
-    website: 'https://goatfoods.com'
-  },
-  {
-    name: 'Voltage Park',
-    logo: 'https://cdn.prod.website-files.com/66bf3d007a95625ff7d81868/66d945cef5a2ff5ed067638c_Scaled%20up%2010x%20(2)%201.avif',
-    website: 'https://voltagepark.com'
-  },
-  {
-    name: 'BOTS',
-    logo: 'https://secureticketpurchase.com/wp-content/uploads/2018/06/logo-1.png',
-    website: 'https://secureticketpurchase.com'
-  },
-  {
-    name: 'AtoB',
-    logo: 'https://cdn.prod.website-files.com/62c496dceca674e60a6d1ecd/68ec0bad02fa4f6f0f722814_logos.svg',
-    website: 'https://www.atob.com'
-  },
-  {
-    name: 'ABL Funding',
-    logo: 'https://www.ablfunding.com/wp-content/uploads/2025/02/Asset-Based-Lending-Logo.svg',
-    website: 'https://www.ablfunding.com'
-  },
-  {
-    name: 'Shopify',
-    logo: 'https://cdn.shopify.com/b/shopify-brochure2-assets/d9340911ca8c679b148dd4a205ad2ffa.svg',
-    website: 'https://www.shopify.com'
-  },
-  {
-    name: 'Berry Street',
-    logo: '',
-    website: 'https://www.berrystreet.co'
-  },
-];
-
 export default function Business() {
   return (
     <div className="min-h-screen bg-cream-100">
@@ -78,14 +23,14 @@ export default function Business() {
               Business
             </h1>
             <p className="text-xl text-cream-200 leading-relaxed max-w-3xl">
-              Building and sharing what I learn from running a growth marketing agency and investing in real estate.
+              Two businesses. One focus: build things that compound.
             </p>
           </motion.div>
         </div>
       </section>
 
       {/* PCG Section */}
-      <section id="pcg" className="py-20 px-6 lg:px-8 bg-white">
+      <section id="pcg" className="py-24 px-6 lg:px-8 bg-white">
         <div className="max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -97,143 +42,145 @@ export default function Business() {
               href="https://www.pivotal-consulting-group.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mb-8"
+              className="inline-block mb-10"
             >
               <img
                 src="https://www.pivotal-consulting-group.com/PivotalLogoTransparent.png"
                 alt="Pivotal Consulting Group"
-                className="h-32 w-auto transition-opacity hover:opacity-80"
+                className="h-24 w-auto transition-opacity hover:opacity-80"
               />
             </a>
-            <p className="text-lg text-charcoal-600 leading-relaxed mb-6">
-              James and I spent years at Google managing <strong>millions in ad spend</strong> and seeing exactly how the platform works from the inside. We saw enough agencies <strong>overpromising and underdelivering</strong>. So we left and started helping companies actually use that knowledge.
-            </p>
-            <p className="text-lg text-charcoal-600 leading-relaxed mb-6">
-              We're a growth marketing agency for B2B SaaS and e-commerce companies doing $5M-$250M.
-            </p>
-            <p className="text-lg text-charcoal-600 leading-relaxed mb-6">
-              For B2B, we build the paid acquisition engine that actually drives pipeline. Not vanity metrics.
-            </p>
-            <p className="text-lg text-charcoal-600 leading-relaxed mb-8">
-              For DTC, we're the team you call when you're <strong>done lighting money on fire</strong>. We obsess over incrementality, contribution margin, and figuring out which channels are actually moving the needle vs. just taking credit.
-            </p>
-
-            <div className="space-y-4 mb-8">
-              <div>
-                <h3 className="text-xl font-bold text-charcoal-900 mb-2">What we actually do:</h3>
-                <ul className="text-charcoal-600 space-y-2">
-                  <li>• Build paid acquisition systems that scale without you babysitting them</li>
-                  <li>• Fix your tracking so you actually know what's working (most companies don't)</li>
-                  <li>• Optimize landing pages because driving traffic to a bad page is just expensive</li>
-                </ul>
-              </div>
+            
+            <div className="space-y-6 text-lg text-charcoal-600 leading-relaxed mb-10">
+              <p className="text-2xl text-charcoal-900 font-semibold leading-snug">
+                I spent 6 years at Google watching agencies waste their clients' money. Then I started one that doesn't.
+              </p>
+              <p>
+                <a href="https://www.pivotal-consulting-group.com/" target="_blank" rel="noopener noreferrer" className="text-eucalyptus-600 hover:text-eucalyptus-700 font-semibold">Pivotal Consulting Group</a> is the growth marketing agency I run with my partner James. Two people. $1.5M in revenue. 95% margins.
+              </p>
+              <p>
+                We work with B2B SaaS and e-commerce companies who are done guessing. We build paid acquisition systems, fix broken tracking, and figure out what's actually driving revenue vs. what's just taking credit.
+              </p>
+              <p>
+                No fluff. No vanity metrics. No 47-slide decks. Just results.
+              </p>
             </div>
-
-            <p className="text-lg text-charcoal-600 leading-relaxed mb-8">
-              Shoot me a note at <a href="mailto:ryan@pivotal-consulting-group.com" className="text-eucalyptus-600 hover:text-eucalyptus-700 font-semibold">ryan@pivotal-consulting-group.com</a> or reach out below.
-            </p>
 
             <Link
               href="/contact"
               className="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white bg-eucalyptus-600 rounded-lg hover:bg-eucalyptus-700 hover:shadow-xl transition-all duration-200 hover:shadow-lg hover:scale-[1.02]"
             >
-              Email me
+              Work with PCG
             </Link>
           </motion.div>
         </div>
       </section>
 
-      {/* PCG Media Section */}
-      <section id="pcg-media" className="py-20 px-6 lg:px-8 bg-cream-200">
-        <div className="max-w-6xl mx-auto">
+      {/* Testimonials Section - Placeholder */}
+      <section className="py-20 px-6 lg:px-8 bg-cream-100 border-y border-charcoal-200">
+        <div className="max-w-4xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="mb-12"
+          >
+            <h2 className="text-3xl font-bold text-charcoal-900 mb-12 tracking-tight text-center">
+              What People Say
+            </h2>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              {/* Testimonial 1 */}
+              <div className="bg-white rounded-xl p-8 shadow-sm border border-charcoal-200">
+                <div className="flex items-center gap-1 mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <svg key={i} className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  ))}
+                </div>
+                <p className="text-charcoal-600 mb-6 italic">
+                  "Add a testimonial from a client or partner here. Something specific about results or working relationship."
+                </p>
+                <div>
+                  <p className="font-semibold text-charcoal-900">Name Here</p>
+                  <p className="text-sm text-charcoal-500">Title, Company</p>
+                </div>
+              </div>
+
+              {/* Testimonial 2 */}
+              <div className="bg-white rounded-xl p-8 shadow-sm border border-charcoal-200">
+                <div className="flex items-center gap-1 mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <svg key={i} className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  ))}
+                </div>
+                <p className="text-charcoal-600 mb-6 italic">
+                  "Another testimonial here. Could be from a real estate partner, client, or colleague."
+                </p>
+                <div>
+                  <p className="font-semibold text-charcoal-900">Name Here</p>
+                  <p className="text-sm text-charcoal-500">Title, Company</p>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* PCG Media Section */}
+      <section id="pcg-media" className="py-24 px-6 lg:px-8 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-16"
           >
             <h2 className="text-4xl font-bold text-charcoal-900 mb-4 tracking-tight">
-              PCG Media
+              Media
             </h2>
             <p className="text-xl text-charcoal-600 leading-relaxed">
-              Our collection of newsletters for marketing leaders and local communities.
+              Newsletters I run for marketers and locals.
             </p>
           </motion.div>
 
-          <div className="space-y-8">
-            {/* BehindTheCMO */}
+          <div className="space-y-12">
+            {/* Behind The CMO */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
-              className="bg-white rounded-xl p-8 border border-charcoal-200 shadow-md"
+              className="bg-cream-100 rounded-xl p-8 border border-charcoal-200"
             >
-              <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 mb-6">
-                <div className="flex-1">
-                  <a
-                    href="https://www.behindthecmo.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-3 mb-6 group"
-                  >
-                    <div className="w-12 h-12 bg-charcoal-900 rounded-lg flex items-center justify-center text-white font-bold text-xl">
-                      B
-                    </div>
-                    <div className="text-3xl font-bold text-charcoal-900 group-hover:text-charcoal-700 transition-colors">
-                      BehindTheCMO
-                    </div>
-                  </a>
-                  <p className="text-lg text-charcoal-600 leading-relaxed mb-6">
-                    Inside stories and insights from top marketing leaders. Real talk about what works, what doesn't, and what it actually takes to run marketing at scale.
-                  </p>
-
-                  {/* Sample Posts */}
-                  <div className="space-y-4">
-                    <h4 className="text-sm font-semibold text-charcoal-500 uppercase tracking-wide">Recent Posts</h4>
-                    <div className="space-y-3">
-                      <a href="https://www.behindthecmo.com" target="_blank" rel="noopener noreferrer" className="block group">
-                        <div className="text-base font-semibold text-charcoal-900 group-hover:text-eucalyptus-600 transition-colors">
-                          How Notion's CMO built a $10B brand with zero paid ads
-                        </div>
-                        <div className="text-sm text-charcoal-500 mt-1">The playbook for product-led growth marketing</div>
-                      </a>
-                      <a href="https://www.behindthecmo.com" target="_blank" rel="noopener noreferrer" className="block group">
-                        <div className="text-base font-semibold text-charcoal-900 group-hover:text-eucalyptus-600 transition-colors">
-                          Why most attribution models are lying to you
-                        </div>
-                        <div className="text-sm text-charcoal-500 mt-1">What actually drives B2B pipeline</div>
-                      </a>
-                      <a href="https://www.behindthecmo.com" target="_blank" rel="noopener noreferrer" className="block group">
-                        <div className="text-base font-semibold text-charcoal-900 group-hover:text-eucalyptus-600 transition-colors">
-                          The death of demand gen (and what's replacing it)
-                        </div>
-                        <div className="text-sm text-charcoal-500 mt-1">Lessons from Gong, HubSpot, and Snowflake</div>
-                      </a>
-                    </div>
-                  </div>
+              <a
+                href="https://www.behindthecmo.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 mb-4 group"
+              >
+                <div className="w-12 h-12 bg-charcoal-900 rounded-lg flex items-center justify-center text-white font-bold text-xl">
+                  B
                 </div>
-                <div className="lg:ml-8 lg:min-w-[280px]">
-                  <div className="bg-cream-100 rounded-lg p-4 border border-charcoal-200">
-                    <form action="https://www.behindthecmo.com" method="get" target="_blank" className="space-y-3">
-                      <input
-                        type="email"
-                        name="email"
-                        placeholder="your@email.com"
-                        className="w-full px-4 py-3 rounded-lg bg-white border border-charcoal-300 text-charcoal-900 placeholder-charcoal-500 focus:outline-none focus:border-eucalyptus-500 focus:ring-2 focus:ring-eucalyptus-200 text-sm"
-                        required
-                      />
-                      <button
-                        type="submit"
-                        className="w-full px-6 py-3 text-sm font-bold text-white bg-eucalyptus-600 rounded-lg hover:bg-eucalyptus-700 hover:shadow-lg transition-all duration-200"
-                      >
-                        Subscribe
-                      </button>
-                    </form>
-                  </div>
+                <div className="text-2xl font-bold text-charcoal-900 group-hover:text-eucalyptus-600 transition-colors">
+                  Behind The CMO
                 </div>
-              </div>
+              </a>
+              <p className="text-charcoal-600 mb-6">
+                Insights and interviews from marketing leaders at high-growth companies. What actually works at scale.
+              </p>
+              <a
+                href="https://www.behindthecmo.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-eucalyptus-600 font-semibold hover:text-eucalyptus-700 transition-colors"
+              >
+                Read on Beehiiv →
+              </a>
             </motion.div>
 
             {/* The Michigander */}
@@ -242,73 +189,33 @@ export default function Business() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="bg-white rounded-xl p-8 border border-charcoal-200 shadow-md"
+              className="bg-cream-100 rounded-xl p-8 border border-charcoal-200"
             >
-              <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 mb-6">
-                <div className="flex-1">
-                  <a
-                    href="https://www.michigander.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-3 mb-4 group"
-                  >
-                    <div className="text-4xl">🌲</div>
-                    <div className="text-3xl font-bold text-charcoal-900 group-hover:text-charcoal-700 transition-colors">
-                      The Michigander
-                    </div>
-                  </a>
-                  <p className="text-sm text-charcoal-500 font-semibold mb-4">
-                    Acquired by PCG in 2026
-                  </p>
-                  <p className="text-lg text-charcoal-600 leading-relaxed mb-6">
-                    Stories from Ann Arbor and Southeast Michigan. Covering local entrepreneurship, startups, real estate, and the people building the community.
-                  </p>
-
-                  {/* Sample Posts */}
-                  <div className="space-y-4">
-                    <h4 className="text-sm font-semibold text-charcoal-500 uppercase tracking-wide">Recent Posts</h4>
-                    <div className="space-y-3">
-                      <a href="https://www.michigander.org/p/well-goodbye-ann-arbor-it-s-been-a-joy" target="_blank" rel="noopener noreferrer" className="block group">
-                        <div className="text-base font-semibold text-charcoal-900 group-hover:text-eucalyptus-600 transition-colors">
-                          Well, Goodbye, Ann Arbor. It's Been A Joy.
-                        </div>
-                        <div className="text-sm text-charcoal-500 mt-1">December 29, 2025</div>
-                      </a>
-                      <a href="https://www.michigander.org/p/bev-s-bagels-to-open-location-on-liberty-street-next-year" target="_blank" rel="noopener noreferrer" className="block group">
-                        <div className="text-base font-semibold text-charcoal-900 group-hover:text-eucalyptus-600 transition-colors">
-                          Bev's Bagels To Open Location On Liberty Street Next Year
-                        </div>
-                        <div className="text-sm text-charcoal-500 mt-1">December 22, 2025</div>
-                      </a>
-                      <a href="https://www.michigander.org/p/l-l-bean-announces-ann-arbor-location-coming-fall-2026" target="_blank" rel="noopener noreferrer" className="block group">
-                        <div className="text-base font-semibold text-charcoal-900 group-hover:text-eucalyptus-600 transition-colors">
-                          L.L. Bean Announces Ann Arbor Location Coming Fall 2026
-                        </div>
-                        <div className="text-sm text-charcoal-500 mt-1">December 15, 2025</div>
-                      </a>
-                    </div>
-                  </div>
+              <a
+                href="https://www.michigander.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-3 mb-4 group"
+              >
+                <div className="text-4xl">🌲</div>
+                <div className="text-2xl font-bold text-charcoal-900 group-hover:text-eucalyptus-600 transition-colors">
+                  The Michigander
                 </div>
-                <div className="lg:ml-8 lg:min-w-[280px]">
-                  <div className="bg-cream-100 rounded-lg p-4 border border-charcoal-200">
-                    <form action="https://www.michigander.org" method="get" target="_blank" className="space-y-3">
-                      <input
-                        type="email"
-                        name="email"
-                        placeholder="your@email.com"
-                        className="w-full px-4 py-3 rounded-lg bg-white border border-charcoal-300 text-charcoal-900 placeholder-charcoal-500 focus:outline-none focus:border-eucalyptus-500 focus:ring-2 focus:ring-eucalyptus-200 text-sm"
-                        required
-                      />
-                      <button
-                        type="submit"
-                        className="w-full px-6 py-3 text-sm font-bold text-white bg-eucalyptus-600 rounded-lg hover:bg-eucalyptus-700 hover:shadow-lg transition-all duration-200"
-                      >
-                        Subscribe
-                      </button>
-                    </form>
-                  </div>
-                </div>
-              </div>
+              </a>
+              <p className="text-sm text-charcoal-500 font-medium mb-3">
+                Acquired 2026
+              </p>
+              <p className="text-charcoal-600 mb-6">
+                Local newsletter covering Ann Arbor. News, events, and stories from the community.
+              </p>
+              <a
+                href="https://www.michigander.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-eucalyptus-600 font-semibold hover:text-eucalyptus-700 transition-colors"
+              >
+                Read on Substack →
+              </a>
             </motion.div>
           </div>
         </div>
@@ -327,6 +234,7 @@ export default function Business() {
                 Ann Arbor, Michigan
               </p>
               <p className="text-charcoal-400 text-sm">
+                Boston, Massachusetts
               </p>
             </div>
 
