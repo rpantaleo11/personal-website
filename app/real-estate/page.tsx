@@ -136,16 +136,19 @@ export default function RealEstate() {
                 </h2>
                 <div className="space-y-6 text-lg text-charcoal-600 leading-relaxed">
                   <p>
-                    Bought my first rental in 2017. I was 25, still at Google, and had no idea what I was doing. The furnace broke month one. I figured it out.
+                    I bought my first rental in 2017 while still working at Google. Everyone told me to wait. "You're too young." "The market's too hot." "What if it goes wrong?" I bought anyway.
                   </p>
                   <p>
-                    Eight years later, I own 12 buildings. 38 units. 91 bedrooms. Around $20M in value. All in Ann Arbor, near the university. Students need housing. I provide it.
+                    That property taught me more than any book ever could. I learned how to screen tenants, negotiate with contractors, and stay calm when the furnace dies at 2am. I also learned I was onto something.
                   </p>
                   <p>
-                    I've been sued. Had contractors ghost me mid-renovation. Learned more from the hard stuff than I ever did from the wins.
+                    Today I own 12 properties in Ann Arbor—38 units, 91 bedrooms, ~$20M portfolio value. Student rentals near the University of Michigan. Limited supply. Consistent demand. The kind of boring, predictable investing I love.
                   </p>
                   <p>
-                    The strategy is simple: find tired properties in good locations, fix them up, rent them out, never sell. I'm not flipping. I'm not chasing appreciation. I'm building something that compounds over decades.
+                    My strategy hasn't changed: buy properties I can improve, renovate thoughtfully, and hold forever. I'm not flipping. I'm not chasing appreciation. I'm building a cash-flowing portfolio that compounds over decades.
+                  </p>
+                  <p>
+                    Real estate isn't my whole plan. But it's the foundation.
                   </p>
                 </div>
               </motion.div>
