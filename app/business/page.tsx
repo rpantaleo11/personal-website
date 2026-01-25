@@ -42,35 +42,47 @@ export default function Business() {
               href="https://www.pivotal-consulting-group.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block mb-10"
+              className="inline-block mb-8"
             >
               <img
                 src="https://www.pivotal-consulting-group.com/PivotalLogoTransparent.png"
                 alt="Pivotal Consulting Group"
-                className="h-24 w-auto transition-opacity hover:opacity-80"
+                className="h-32 w-auto transition-opacity hover:opacity-80"
               />
             </a>
-            
-            <div className="space-y-6 text-lg text-charcoal-600 leading-relaxed mb-10">
-              <p className="text-2xl text-charcoal-900 font-semibold leading-snug">
-                I spent 6 years at Google watching agencies waste their clients' money. Then I started one that doesn't.
-              </p>
-              <p>
-                <a href="https://www.pivotal-consulting-group.com/" target="_blank" rel="noopener noreferrer" className="text-eucalyptus-600 hover:text-eucalyptus-700 font-semibold">Pivotal Consulting Group</a> is the growth marketing agency I run with my partner James. Two people. $1.5M in revenue. 95% margins.
-              </p>
-              <p>
-                We work with B2B SaaS and e-commerce companies who are done guessing. We build paid acquisition systems, fix broken tracking, and figure out what's actually driving revenue vs. what's just taking credit.
-              </p>
-              <p>
-                No fluff. No vanity metrics. No 47-slide decks. Just results.
-              </p>
+            <p className="text-lg text-charcoal-600 leading-relaxed mb-6">
+              James and I spent years at Google managing <strong>millions in ad spend</strong> and seeing exactly how the platform works from the inside. We saw enough agencies <strong>overpromising and underdelivering</strong>. So we left and started helping companies actually use that knowledge.
+            </p>
+            <p className="text-lg text-charcoal-600 leading-relaxed mb-6">
+              We're a growth marketing agency for B2B SaaS and e-commerce companies doing $5M-$250M.
+            </p>
+            <p className="text-lg text-charcoal-600 leading-relaxed mb-6">
+              For B2B, we build the paid acquisition engine that actually drives pipeline. Not vanity metrics.
+            </p>
+            <p className="text-lg text-charcoal-600 leading-relaxed mb-8">
+              For DTC, we're the team you call when you're <strong>done lighting money on fire</strong>. We obsess over incrementality, contribution margin, and figuring out which channels are actually moving the needle vs. just taking credit.
+            </p>
+
+            <div className="space-y-4 mb-8">
+              <div>
+                <h3 className="text-xl font-bold text-charcoal-900 mb-2">What we actually do:</h3>
+                <ul className="text-charcoal-600 space-y-2">
+                  <li>• Build paid acquisition systems that scale without you babysitting them</li>
+                  <li>• Fix your tracking so you actually know what's working (most companies don't)</li>
+                  <li>• Optimize landing pages because driving traffic to a bad page is just expensive</li>
+                </ul>
+              </div>
             </div>
+
+            <p className="text-lg text-charcoal-600 leading-relaxed mb-8">
+              Shoot me a note at <a href="mailto:ryan@pivotal-consulting-group.com" className="text-eucalyptus-600 hover:text-eucalyptus-700 font-semibold">ryan@pivotal-consulting-group.com</a> or reach out below.
+            </p>
 
             <Link
               href="/contact"
               className="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white bg-eucalyptus-600 rounded-lg hover:bg-eucalyptus-700 hover:shadow-xl transition-all duration-200 hover:shadow-lg hover:scale-[1.02]"
             >
-              Work with PCG
+              Email me
             </Link>
           </motion.div>
         </div>
