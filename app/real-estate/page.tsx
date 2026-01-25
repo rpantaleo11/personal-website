@@ -136,19 +136,19 @@ export default function RealEstate() {
                 </h2>
                 <div className="space-y-6 text-lg text-charcoal-600 leading-relaxed">
                   <p>
-                    I bought my first rental property in Ann Arbor's Kerrytown neighborhood in 2018. The plan was simple: find properties with strong fundamentals, renovate them thoughtfully, and hold for long-term appreciation and cash flow.
+                    I bought my first rental in 2017 while still working at Google. Everyone told me to wait. "You're too young." "The market's too hot." "What if it goes wrong?" I bought anyway.
                   </p>
                   <p>
-                    Ann Arbor checked every box. Strong rental demand from the University of Michigan. Limited supply in the walkable historic neighborhoods. A diverse economy that doesn't rely solely on the university. And I knew the market—I'd lived here for years.
+                    That property taught me more than any book ever could. I learned how to screen tenants, negotiate with contractors, and stay calm when the furnace dies at 2am. I also learned I was onto something.
                   </p>
                   <p>
-                    Over the next few years, I scaled to 10 properties worth ~$7.5M across Kerrytown and the Old West Side. Six are stabilized and cash-flowing. Two are active renovation projects. Four more are in the pipeline.
+                    Today I own 12 properties in Ann Arbor—38 units, 91 bedrooms, ~$20M portfolio value. All in two neighborhoods: Kerrytown and Old West Side. Student rentals near the University of Michigan. Limited supply. Consistent demand. The kind of boring, predictable investing I love.
                   </p>
                   <p>
-                    My investment criteria haven't changed: cap rate ≥6%, cash-on-cash return ≥10%, DSCR ≥1.25. I focus on properties where I can add value through renovation while maintaining the historic character that makes these neighborhoods special.
+                    My strategy hasn't changed: buy properties I can improve, renovate thoughtfully, and hold forever. I'm not flipping. I'm not chasing appreciation. I'm building a cash-flowing portfolio that compounds over decades.
                   </p>
                   <p>
-                    The goal is to build a portfolio that generates consistent cash flow while appreciating over decades. Real estate is one path to my long-term target of $100M net worth by age 50.
+                    Real estate isn't my whole plan. But it's the foundation.
                   </p>
                 </div>
               </motion.div>
