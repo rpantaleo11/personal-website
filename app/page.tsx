@@ -341,6 +341,9 @@ export default function Home() {
               <p className="text-charcoal-400 text-sm">
                 Ann Arbor, Michigan
               </p>
+              <p className="text-charcoal-400 text-sm">
+                Boston, Massachusetts
+              </p>
             </div>
 
             <div className="flex items-center gap-6">

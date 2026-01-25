@@ -70,8 +70,8 @@ export default function Contact() {
                     <span className="text-lg">📈</span>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-charcoal-900 mb-1">Google Ads & Growth</h3>
-                    <p className="text-sm">Need help scaling paid acquisition? That's what PCG does.</p>
+                    <h3 className="font-semibold text-charcoal-900 mb-1">Marketing & Growth</h3>
+                    <p className="text-sm">Need help scaling your business? That's what PCG does.</p>
                   </div>
                 </div>
 
@@ -191,7 +191,7 @@ export default function Contact() {
                     className="w-full px-4 py-3 rounded-lg bg-cream-100 border border-charcoal-300 text-charcoal-900 focus:outline-none focus:border-eucalyptus-500 focus:ring-2 focus:ring-eucalyptus-200 transition-colors"
                   >
                     <option value="">Select one...</option>
-                    <option value="Google Ads / PCG">Google Ads / Working with PCG</option>
+                    <option value="Marketing / PCG">Marketing / Working with PCG</option>
                     <option value="Real Estate">Real Estate in Ann Arbor</option>
                     <option value="Partnership">Partnership / Business Opportunity</option>
                     <option value="Newsletter">Newsletter / Content</option>
@@ -243,6 +243,9 @@ export default function Contact() {
               </div>
               <p className="text-charcoal-400 text-sm">
                 Ann Arbor, Michigan
+              </p>
+              <p className="text-charcoal-400 text-sm">
+                Boston, Massachusetts
               </p>
             </div>
 
