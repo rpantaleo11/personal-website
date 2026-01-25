@@ -103,11 +103,11 @@ export default function Business() {
             
             <div className="grid md:grid-cols-3 gap-8">
               {/* Testimonial 1 - Justin Woolverton */}
-              <div className="bg-white rounded-xl p-8 shadow-sm border border-charcoal-200">
-                <p className="text-charcoal-600 mb-6 leading-relaxed">
+              <div className="bg-white rounded-xl p-8 shadow-sm border border-charcoal-200 flex flex-col h-full">
+                <p className="text-charcoal-600 leading-relaxed flex-grow">
                   "Ryan helped us develop a comprehensive digital marketing strategy that drove high-quality traffic which converted to offline sales. Highly recommend."
                 </p>
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-4 mt-6 pt-6 border-t border-charcoal-100">
                   <img 
                     src="/testimonials/justin-woolverton.jpg" 
                     alt="Justin Woolverton"
@@ -121,11 +121,11 @@ export default function Business() {
               </div>
 
               {/* Testimonial 2 - Shama Amalean Skinner (middle) */}
-              <div className="bg-white rounded-xl p-8 shadow-sm border border-charcoal-200">
-                <p className="text-charcoal-600 mb-6 leading-relaxed">
+              <div className="bg-white rounded-xl p-8 shadow-sm border border-charcoal-200 flex flex-col h-full">
+                <p className="text-charcoal-600 leading-relaxed flex-grow">
                   "We expanded our online presence in a way that would not have been possible without Ryan. Highly recommend to any e-commerce business looking to grow."
                 </p>
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-4 mt-6 pt-6 border-t border-charcoal-100">
                   <img 
                     src="/testimonials/shama-skinner.jpg" 
                     alt="Shama Amalean Skinner"
@@ -139,15 +139,15 @@ export default function Business() {
               </div>
 
               {/* Testimonial 3 - Brandon Hendrix */}
-              <div className="bg-white rounded-xl p-8 shadow-sm border border-charcoal-200">
-                <p className="text-charcoal-600 mb-6 leading-relaxed">
+              <div className="bg-white rounded-xl p-8 shadow-sm border border-charcoal-200 flex flex-col h-full">
+                <p className="text-charcoal-600 leading-relaxed flex-grow">
                   "Ryan deeply understands digital advertising and is quick to problem solve. He played a huge role in our growth and always went above and beyond."
                 </p>
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-4 mt-6 pt-6 border-t border-charcoal-100">
                   <img 
                     src="/testimonials/brandon-hendrix.jpg" 
                     alt="Brandon Hendrix"
-                    className="w-12 h-12 rounded-full object-cover bg-charcoal-200"
+                    className="w-12 h-12 rounded-full object-cover"
                   />
                   <div>
                     <p className="font-semibold text-charcoal-900">Brandon Hendrix</p>
