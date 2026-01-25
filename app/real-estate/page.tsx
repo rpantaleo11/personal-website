@@ -136,22 +136,16 @@ export default function RealEstate() {
                 </h2>
                 <div className="space-y-6 text-lg text-charcoal-600 leading-relaxed">
                   <p>
-                    First property in 2017. Still at Google. Everyone said wait.
+                    91 bedrooms. I rent out 91 bedrooms.
                   </p>
                   <p>
-                    I didn't.
+                    It started with one duplex in 2017 that I bought while everyone at Google thought I was crazy. Now it's 12 buildings across Ann Arbor. ~$20M in assets. All near campus. All rented to students who need a place to live.
                   </p>
                   <p>
-                    12 properties now. 38 units. 91 bedrooms. ~$20M portfolio. All student rentals in Ann Arbor near U of M.
+                    I don't flip. I don't do short-term rentals (mostly). I buy buildings that need work, fix them right, and hold them forever. Boring strategy. Boring returns. Exactly how I like it.
                   </p>
                   <p>
-                    The thesis: buy in supply-constrained neighborhoods, renovate well, hold forever. Cash flow now. Appreciation later. Compounding always.
-                  </p>
-                  <p>
-                    I've had tenants trash units. Contractors disappear. Lawsuits. None of it changed the math.
-                  </p>
-                  <p>
-                    Real estate is the foundation. Everything else builds on top.
+                    Real estate gave me the confidence to quit my job, the cash flow to take risks, and the leverage to build everything else. It's not the flashiest part of what I do. But it's the part that makes everything else possible.
                   </p>
                 </div>
               </motion.div>
