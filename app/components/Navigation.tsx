@@ -67,7 +67,7 @@ export default function Navigation() {
           {/* Social Links (Desktop) */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="https://twitter.com/ryanpantaleo"
+              href="https://twitter.com/RyPantaleo"
               target="_blank"
               rel="noopener noreferrer"
               className="text-cream-200 hover:text-cream-50 transition-colors"
@@ -155,7 +155,7 @@ export default function Navigation() {
           ))}
           <div className="flex items-center gap-6 pt-4 border-t border-cream-50/10">
             <a
-              href="https://twitter.com/ryanpantaleo"
+              href="https://twitter.com/RyPantaleo"
               target="_blank"
               rel="noopener noreferrer"
               className="text-cream-200 hover:text-cream-50 transition-colors"

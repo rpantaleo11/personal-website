@@ -13,42 +13,42 @@ const timelineEvents = [
   {
     year: '2015',
     title: 'Joined Google',
-    description: 'Started leading sales teams at Google, managing relationships with major advertisers and developing expertise in digital advertising.',
+    description: 'Started leading sales teams at Google, managing relationships with major advertisers and learning how the ads machine actually works from the inside.',
   },
   {
-    year: '2018',
+    year: '2017',
     title: 'First Rental Property',
-    description: 'Bought my first rental property in Ann Arbor\'s Kerrytown neighborhood. The start of building a long-term real estate portfolio.',
-  },
-  {
-    year: '2020',
-    title: 'Moved to Shopify',
-    description: 'Joined Shopify to continue leading sales teams and expanding experience in the e-commerce ecosystem.',
+    description: 'Bought my first rental property in Ann Arbor while still at Google. The beginning of a real estate obsession.',
   },
   {
     year: '2021',
-    title: 'Co-founded PCG',
-    description: 'Left Shopify to co-found Pivotal Consulting Group with James Murray, leveraging our combined Google experience to build a Google Ads agency.',
+    title: 'Left Google, Joined Shopify',
+    description: 'After 6 years at Google, moved to Shopify to lead sales teams and get deeper into e-commerce.',
   },
   {
-    year: '2022-2024',
-    title: 'Scaled Real Estate Portfolio',
-    description: 'Acquired additional properties across Ann Arbor\'s premier neighborhoods, reaching 12 properties worth ~$7.5M.',
+    year: '2022',
+    title: 'Co-founded PCG',
+    description: 'Started Pivotal Consulting Group with James Murray on the side. Two ex-Googlers who got tired of watching agencies waste their clients\' money.',
+  },
+  {
+    year: '2023',
+    title: 'Quit Shopify, Went Full-Time',
+    description: 'Left Shopify to go all-in on PCG. Best decision I\'ve made.',
   },
   {
     year: '2024',
     title: 'Married Jess',
-    description: 'Got married on September 14, 2024. Living in Old West Side of Ann Arbor.',
+    description: 'Got married in September. Living in Old West Side, Ann Arbor.',
+  },
+  {
+    year: '2025',
+    title: 'Scaled to $20M in Real Estate',
+    description: '12 properties, 91 bedrooms, $20M portfolio value. Acquired The Michigander newsletter.',
   },
   {
     year: '2026',
     title: 'First Baby',
-    description: 'Expecting our first baby in June 2026.',
-  },
-  {
-    year: 'Future',
-    title: 'Long-term Vision',
-    description: 'Building toward $100M net worth by age 50 through PCG, real estate investing, and building TruckerFiling (SaaS product targeting $10K MRR by June 2026).',
+    description: 'Expecting our first baby in June. The real reason I\'m trying to systematize everything.',
   },
 ];
 
@@ -91,13 +91,13 @@ export default function About() {
                 I was born and raised in Boston but live in Ann Arbor, Michigan.
               </p>
               <p>
-                I run <a href="https://www.pivotal-consulting-group.com" target="_blank" rel="noopener noreferrer" className="text-eucalyptus-600 hover:text-eucalyptus-700 font-semibold underline decoration-eucalyptus-500/30 hover:decoration-eucalyptus-600 transition-colors">Pivotal Consulting Group</a>, a growth marketing agency I co-founded with my business partner James. Our global team manages paid marketing for enterprise and growth-stage SaaS companies. Before starting PCG, I spent 9+ years at Google and Shopify leading sales teams—where I learned how to sell, how to manage, and how to not panic when things break. It was a good run and I'm grateful for starting my career at Google, but striking out on my own was the best decision I've made.
+                I run <a href="https://www.pivotal-consulting-group.com" target="_blank" rel="noopener noreferrer" className="text-eucalyptus-600 hover:text-eucalyptus-700 font-semibold underline decoration-eucalyptus-500/30 hover:decoration-eucalyptus-600 transition-colors">Pivotal Consulting Group</a>, a growth marketing agency I co-founded with James Murray. Just the two of us, plus an offshore VA—doing $1.5M in revenue at 95% margins. Before PCG, I spent 6 years at Google and 2 at Shopify leading sales teams. I learned how to sell, how to manage, and how the ads machine actually works. Leaving was the scariest and best decision I've made.
               </p>
               <p>
-                I also invest in real estate and have been doing so since 2017. Most of the properties I own are student rentals in the downtown Ann Arbor area. It's been a journey—I've been in court, I've been sued, I've had contractor nightmares. But I'm grateful for all of it. I focus on value-add properties in prime locations and plan to hold for the long term, where the compounding magic really happens.
+                I also own 12 rental properties in Ann Arbor—38 units, 91 bedrooms, ~$20M in value. Been doing this since 2017. It's been a journey: I've been in court, I've been sued, I've had contractors ghost me mid-renovation. But I'm grateful for all of it. I focus on student rentals in historic neighborhoods (Kerrytown, Old West Side) and plan to hold forever. That's where the compounding magic happens.
               </p>
               <p>
-                I run a free weekly newsletter called <a href="https://www.michigander.org" target="_blank" rel="noopener noreferrer" className="text-eucalyptus-600 hover:text-eucalyptus-700 font-semibold underline decoration-eucalyptus-500/30 hover:decoration-eucalyptus-600 transition-colors">The Michigander</a>. Our agency acquired it in 2026 and I've enjoyed sharing weekly updates with the Ann Arbor community. I also write a personal newsletter where I share thoughts, learnings, and the trials and tribulations of building businesses.
+                I also run <a href="https://www.michigander.org" target="_blank" rel="noopener noreferrer" className="text-eucalyptus-600 hover:text-eucalyptus-700 font-semibold underline decoration-eucalyptus-500/30 hover:decoration-eucalyptus-600 transition-colors">The Michigander</a>, a local Ann Arbor newsletter we acquired in 2026. And I write a personal newsletter about building businesses and buying buildings—basically everything I'm learning along the way.
               </p>
               <p>
                 I live in Ann Arbor with my wife Jess and our dog Louie.
@@ -177,13 +177,12 @@ export default function About() {
                 Ann Arbor, Michigan
               </p>
               <p className="text-charcoal-400 text-sm">
-                Boston, Massachusetts
               </p>
             </div>
 
             <div className="flex items-center gap-6">
               <a
-                href="https://twitter.com/ryanpantaleo"
+                href="https://twitter.com/RyPantaleo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-charcoal-400 hover:text-cream-50 transition-colors"

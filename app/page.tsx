@@ -341,14 +341,11 @@ export default function Home() {
               <p className="text-charcoal-400 text-sm">
                 Ann Arbor, Michigan
               </p>
-              <p className="text-charcoal-400 text-sm">
-                Boston, Massachusetts
-              </p>
             </div>
 
             <div className="flex items-center gap-6">
               <a
-                href="https://twitter.com/ryanpantaleo"
+                href="https://twitter.com/RyPantaleo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-charcoal-400 hover:text-cream-50 transition-colors"
