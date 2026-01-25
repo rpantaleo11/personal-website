@@ -120,7 +120,25 @@ export default function Business() {
                 </div>
               </div>
 
-              {/* Testimonial 2 - Brandon Hendrix */}
+              {/* Testimonial 2 - Shama Amalean Skinner (middle) */}
+              <div className="bg-white rounded-xl p-8 shadow-sm border border-charcoal-200">
+                <p className="text-charcoal-600 mb-6 leading-relaxed">
+                  "We expanded our online presence in a way that would not have been possible without Ryan. Highly recommend to any e-commerce business looking to grow."
+                </p>
+                <div className="flex items-center gap-4">
+                  <img 
+                    src="/testimonials/shama-skinner.jpg" 
+                    alt="Shama Amalean Skinner"
+                    className="w-12 h-12 rounded-full object-cover"
+                  />
+                  <div>
+                    <p className="font-semibold text-charcoal-900">Shama Amalean Skinner</p>
+                    <p className="text-sm text-charcoal-500">Former CMO, Thinx</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Testimonial 3 - Brandon Hendrix */}
               <div className="bg-white rounded-xl p-8 shadow-sm border border-charcoal-200">
                 <p className="text-charcoal-600 mb-6 leading-relaxed">
                   "Ryan deeply understands digital advertising and is quick to problem solve. He played a huge role in our growth and always went above and beyond."
@@ -134,24 +152,6 @@ export default function Business() {
                   <div>
                     <p className="font-semibold text-charcoal-900">Brandon Hendrix</p>
                     <p className="text-sm text-charcoal-500">CMO, Thrasio</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Testimonial 3 - Shama Amalean Skinner */}
-              <div className="bg-white rounded-xl p-8 shadow-sm border border-charcoal-200">
-                <p className="text-charcoal-600 mb-6 leading-relaxed">
-                  "We expanded our online presence in a way that would not have been possible without Ryan. Highly recommend to any e-commerce business looking to grow."
-                </p>
-                <div className="flex items-center gap-4">
-                  <img 
-                    src="/testimonials/shama-skinner.jpg" 
-                    alt="Shama Amalean Skinner"
-                    className="w-12 h-12 rounded-full object-cover bg-charcoal-200"
-                  />
-                  <div>
-                    <p className="font-semibold text-charcoal-900">Shama Amalean Skinner</p>
-                    <p className="text-sm text-charcoal-500">Former CMO, Thinx</p>
                   </div>
                 </div>
               </div>
