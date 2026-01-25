@@ -142,10 +142,10 @@ export default function RealEstate() {
                     Eight years later, I own 12 buildings. 38 units. 91 bedrooms. Around $20M in value. All in Ann Arbor, near the university. Students need housing. I provide it.
                   </p>
                   <p>
-                    I've been sued, had contractors disappear mid-job, and once discovered a tenant running a small business out of the basement (not the good kind). Still worth it.
+                    I've been sued. Had contractors ghost me mid-renovation. Learned more from the hard stuff than I ever did from the wins.
                   </p>
                   <p>
-                    The strategy is simple: find tired properties in good locations, fix them up, rent them out, never sell. I'm not trying to get rich quick. I'm trying to get rich slow.
+                    The strategy is simple: find tired properties in good locations, fix them up, rent them out, never sell. I'm not flipping. I'm not chasing appreciation. I'm building something that compounds over decades.
                   </p>
                 </div>
               </motion.div>
