@@ -136,19 +136,22 @@ export default function RealEstate() {
                 </h2>
                 <div className="space-y-6 text-lg text-charcoal-600 leading-relaxed">
                   <p>
-                    I bought my first rental in 2017 while still working at Google. Everyone told me to wait. "You're too young." "The market's too hot." "What if it goes wrong?" I bought anyway.
+                    First property in 2017. Still at Google. Everyone said wait.
                   </p>
                   <p>
-                    That property taught me more than any book ever could. I learned how to screen tenants, negotiate with contractors, and stay calm when the furnace dies at 2am. I also learned I was onto something.
+                    I didn't.
                   </p>
                   <p>
-                    Today I own 12 properties in Ann Arbor—38 units, 91 bedrooms, ~$20M portfolio value. Student rentals near the University of Michigan. Limited supply. Consistent demand. The kind of boring, predictable investing I love.
+                    12 properties now. 38 units. 91 bedrooms. ~$20M portfolio. All student rentals in Ann Arbor near U of M.
                   </p>
                   <p>
-                    My strategy hasn't changed: buy properties I can improve, renovate thoughtfully, and hold forever. I'm not flipping. I'm not chasing appreciation. I'm building a cash-flowing portfolio that compounds over decades.
+                    The thesis: buy in supply-constrained neighborhoods, renovate well, hold forever. Cash flow now. Appreciation later. Compounding always.
                   </p>
                   <p>
-                    Real estate isn't my whole plan. But it's the foundation.
+                    I've had tenants trash units. Contractors disappear. Lawsuits. None of it changed the math.
+                  </p>
+                  <p>
+                    Real estate is the foundation. Everything else builds on top.
                   </p>
                 </div>
               </motion.div>
