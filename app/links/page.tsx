@@ -3,14 +3,14 @@
 import { motion } from 'framer-motion';
 
 const leftLinks = [
-  { title: 'About Me', description: 'My story and what I\'m building', href: '/about' },
-  { title: 'Pivotal Consulting', description: 'Growth marketing for B2B and e-commerce', href: 'https://www.pivotal-consulting-group.com' },
-  { title: 'Real Estate Portfolio', description: '12 properties, 91 bedrooms in Ann Arbor', href: '/real-estate' },
+  { title: 'About Me', href: '/about' },
+  { title: 'Pivotal Consulting', href: 'https://www.pivotal-consulting-group.com' },
+  { title: 'Real Estate Portfolio', href: '/real-estate' },
 ];
 
 const rightLinks = [
-  { title: 'Behind the CMO', description: 'Newsletter for marketing leaders', href: 'https://www.behindthecmo.com' },
-  { title: 'The Michigander', description: 'Local Ann Arbor newsletter', href: 'https://www.michigander.org' },
+  { title: 'Behind the CMO', href: 'https://www.behindthecmo.com' },
+  { title: 'The Michigander', href: 'https://www.michigander.org' },
 ];
 
 export default function Links() {
@@ -22,7 +22,7 @@ export default function Links() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-10"
+          className="text-center mb-12"
         >
           <div className="w-24 h-24 rounded-2xl mx-auto mb-5 overflow-hidden shadow-[0_8px_32px_rgba(0,0,0,0.4)] border border-cream-50/10">
             <img
@@ -40,9 +40,9 @@ export default function Links() {
         </motion.div>
 
         {/* Two Column Links */}
-        <div className="grid md:grid-cols-2 gap-6 mb-8">
+        <div className="grid md:grid-cols-2 gap-8 mb-10">
           {/* Left Column */}
-          <div className="space-y-4">
+          <div className="space-y-3">
             {leftLinks.map((link, index) => (
               <motion.a
                 key={link.title}
@@ -52,21 +52,20 @@ export default function Links() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="block bg-cream-100 rounded-lg p-4 border-l-4 border-eucalyptus-500 hover:border-eucalyptus-600 hover:shadow-lg transition-all duration-200"
+                className="block bg-cream-100 rounded-lg px-5 py-4 border-l-4 border-eucalyptus-500 hover:border-eucalyptus-600 hover:shadow-lg transition-all duration-200"
               >
-                <h2 className="font-semibold text-charcoal-900">{link.title}</h2>
-                <p className="text-sm text-charcoal-500">{link.description}</p>
+                <span className="font-semibold text-charcoal-900">{link.title}</span>
               </motion.a>
             ))}
           </div>
 
           {/* Right Column */}
-          <div className="space-y-4">
+          <div className="space-y-3">
             <motion.h3
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="text-sm font-semibold text-cream-200 uppercase tracking-wide"
+              className="text-xs font-semibold text-cream-200/60 uppercase tracking-widest mb-1"
             >
               Media
             </motion.h3>
@@ -79,10 +78,9 @@ export default function Links() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.1 + index * 0.1 }}
-                className="block bg-cream-100 rounded-lg p-4 border-l-4 border-eucalyptus-500 hover:border-eucalyptus-600 hover:shadow-lg transition-all duration-200"
+                className="block bg-cream-100 rounded-lg px-5 py-4 border-l-4 border-eucalyptus-500 hover:border-eucalyptus-600 hover:shadow-lg transition-all duration-200"
               >
-                <h2 className="font-semibold text-charcoal-900">{link.title}</h2>
-                <p className="text-sm text-charcoal-500">{link.description}</p>
+                <span className="font-semibold text-charcoal-900">{link.title}</span>
               </motion.a>
             ))}
           </div>
