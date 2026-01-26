@@ -72,7 +72,6 @@ export default function RealEstate() {
   };
 
   const sortedCurrentHoldings = sortProperties(currentHoldings);
-  const sortedPastHoldings = sortProperties(pastHoldings);
 
   return (
     <div className="min-h-screen bg-cream-100">
@@ -328,7 +327,7 @@ export default function RealEstate() {
                 </p>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                  {sortedPastHoldings.map((property, index) => (
+                  {pastHoldings.map((property, index) => (
                     <motion.div
                       key={property.address}
                       initial={{ opacity: 0, y: 20 }}
