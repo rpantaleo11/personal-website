@@ -22,7 +22,7 @@ const currentHoldings = [
   { address: 'The Ledger', neighborhood: 'Kerrytown', units: '1', bedrooms: '4', type: 'Short-term rental', acquisitionDate: '2025', purchasePrice: '$800K', value: '$900K', acquisitionMethod: 'Off-Market', renovationDate: '2026', image: '' },
   { address: '311 W William', neighborhood: 'Old West Side', units: '2', bedrooms: '4', type: 'Long-term rental', acquisitionDate: '2026', purchasePrice: '$650K', value: '$650K', acquisitionMethod: 'Off-Market', renovationDate: '2027', image: '' },
   { address: '500 Catherine', neighborhood: 'Old West Side', units: '4', bedrooms: '8', type: 'Long-term rental', acquisitionDate: '2025', purchasePrice: '$1.23M', value: '$1.24M', acquisitionMethod: 'Off-Market', renovationDate: 'TBD', image: '' },
-  { address: '600 Catherine', neighborhood: 'Old West Side', units: '3', bedrooms: '4', type: 'Long-term rental', acquisitionDate: '2024', purchasePrice: '$1M', value: '$1.1M', acquisitionMethod: 'Off-Market', renovationDate: 'TBD', image: '' },
+  { address: '600 Catherine', neighborhood: 'Old West Side', units: '3', bedrooms: '4', type: 'Long-term rental', acquisitionDate: '2024', purchasePrice: '$1M', value: '$1.1M', acquisitionMethod: 'Off-Market', renovationDate: 'TBD', image: '/properties/600-catherine.jpg' },
 ];
 
 const pastHoldings = [
