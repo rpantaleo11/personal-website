@@ -3,9 +3,10 @@
 import { motion } from 'framer-motion';
 
 const links = [
-  { title: 'Behind the CMO', href: 'https://www.behindthecmo.com' },
-  { title: 'Pivotal Consulting', href: 'https://www.pivotal-consulting-group.com' },
-  { title: 'Real Estate Portfolio', href: '/real-estate' },
+  { title: 'Personal Website', href: '/' },
+  { title: 'My Thoughts', href: 'https://www.behindthecmo.com' },
+  { title: 'Pivotal Consulting Group', href: 'https://www.pivotal-consulting-group.com' },
+  { title: 'Real Estate Investing', href: '/real-estate' },
 ];
 
 export default function Links() {
