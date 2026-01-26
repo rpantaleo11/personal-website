@@ -27,7 +27,7 @@ const currentHoldings = [
 
 const pastHoldings = [
   { address: '2130 Washtenaw', neighborhood: 'Burns Park', units: '2', bedrooms: '6', type: 'Long-term rental', acquisitionDate: '2018', purchasePrice: '$387K', salePrice: '$540K', saleDate: '2021', is1031: false, image: '' },
-  { address: '2134 Washtenaw', neighborhood: 'Burns Park', units: '2', bedrooms: '6', type: 'Long-term rental', acquisitionDate: '2017', purchasePrice: '$358K', salePrice: '$540K', saleDate: '2021', is1031: false, image: '' },
+  { address: '2134 Washtenaw', neighborhood: 'Burns Park', units: '2', bedrooms: '6', type: 'Long-term rental', acquisitionDate: '2017', purchasePrice: '$358K', salePrice: '$540K', saleDate: '2021', is1031: false, image: '/properties/2134-washtenaw.jpg' },
   { address: '1218 W Huron', neighborhood: 'West Side', units: '2', bedrooms: '4', type: 'Long-term rental', acquisitionDate: '', purchasePrice: '$320K', salePrice: '$575K', saleDate: '', is1031: true, image: '/properties/1218-w-huron.jpg' },
   { address: '1300 W Huron', neighborhood: 'West Side', units: '2', bedrooms: '4', type: 'Long-term rental', acquisitionDate: '', purchasePrice: '$280K', salePrice: '$575K', saleDate: '', is1031: true, image: '/properties/1300-w-huron.jpg' },
   { address: '1615 Peach St', neighborhood: 'Northside', units: '3', bedrooms: '5', type: 'Long-term rental', acquisitionDate: '', purchasePrice: '$425K', salePrice: '$870K', saleDate: '', is1031: true, image: '/properties/1615-peach.jpg' },
