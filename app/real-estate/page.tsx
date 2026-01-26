@@ -18,11 +18,11 @@ const currentHoldings = [
   { address: 'The Carriage House', neighborhood: 'Kerrytown', units: '2', bedrooms: '5', type: 'Long-term rental', acquisitionDate: '2023', purchasePrice: '$350K', value: '$1.25M', acquisitionMethod: 'Off-Market', renovationDate: '2024', image: '/properties/526-detroit.jpg' },
   { address: 'The Bach House', neighborhood: 'Old West Side', units: '2', bedrooms: '3', type: 'Long-term rental', acquisitionDate: '2020', purchasePrice: '$234K', value: '$650K', acquisitionMethod: 'Off-Market', renovationDate: '2020', image: '/properties/716-w-jefferson.jpg' },
   { address: 'The Garden House', neighborhood: 'Old West Side', units: '3', bedrooms: '4', type: 'Long-term rental', acquisitionDate: '2025', purchasePrice: '$888K', value: '$1.23M', acquisitionMethod: 'MLS', renovationDate: '2025', image: '/properties/615-w-jefferson.png' },
-  { address: 'Fine Townhomes', neighborhood: 'Downtown', units: '4', bedrooms: '20', type: 'Long-term rental', acquisitionDate: '2025', purchasePrice: '$950K', value: '$4M', acquisitionMethod: 'MLS', renovationDate: '2026', image: '/properties/fine-townhomes.jpg' },
+  { address: 'The Post', neighborhood: 'Downtown', units: '4', bedrooms: '20', type: 'Long-term rental', acquisitionDate: '2025', purchasePrice: '$950K', value: '$4M', acquisitionMethod: 'MLS', renovationDate: '2026', image: '/properties/fine-townhomes.jpg' },
   { address: 'The Getaway', neighborhood: 'Kerrytown', units: '1', bedrooms: '4', type: 'Short-term rental', acquisitionDate: '2025', purchasePrice: '$800K', value: '$900K', acquisitionMethod: 'Off-Market', renovationDate: '2026', image: '/properties/the-ledger.jpg' },
   { address: 'The Hilltop', neighborhood: 'Old West Side', units: '2', bedrooms: '4', type: 'Long-term rental', acquisitionDate: '2026', purchasePrice: '$650K', value: '$650K', acquisitionMethod: 'Off-Market', renovationDate: '2027', image: '/properties/311-w-william.jpg' },
-  { address: 'The Craftsman', neighborhood: 'Old West Side', units: '4', bedrooms: '8', type: 'Long-term rental', acquisitionDate: '2025', purchasePrice: '$1.23M', value: '$1.24M', acquisitionMethod: 'Off-Market', renovationDate: 'TBD', image: '/properties/500-catherine.jpg' },
-  { address: 'The Brownstone', neighborhood: 'Old West Side', units: '3', bedrooms: '4', type: 'Long-term rental', acquisitionDate: '2024', purchasePrice: '$1M', value: '$1.1M', acquisitionMethod: 'Off-Market', renovationDate: 'TBD', image: '/properties/600-catherine.jpg' },
+  { address: 'The Craftsman', neighborhood: 'Kerrytown', units: '4', bedrooms: '8', type: 'Long-term rental', acquisitionDate: '2025', purchasePrice: '$1.23M', value: '$1.24M', acquisitionMethod: 'Off-Market', renovationDate: 'TBD', image: '/properties/500-catherine.jpg' },
+  { address: 'The Brownstone', neighborhood: 'Kerrytown', units: '3', bedrooms: '4', type: 'Long-term rental', acquisitionDate: '2024', purchasePrice: '$1M', value: '$1.1M', acquisitionMethod: 'Off-Market', renovationDate: 'TBD', image: '/properties/600-catherine.jpg' },
 ];
 
 const pastHoldings = [
@@ -30,7 +30,7 @@ const pastHoldings = [
   { address: '2134 Washtenaw', neighborhood: 'Burns Park', units: '2', bedrooms: '6', type: 'Long-term rental', acquisitionDate: '2017', purchasePrice: '$358K', salePrice: '$540K', saleDate: '2021', is1031: false, image: '' },
   { address: '1218 W Huron', neighborhood: 'West Side', units: '2', bedrooms: '4', type: 'Long-term rental', acquisitionDate: '', purchasePrice: '$320K', salePrice: '$575K', saleDate: '', is1031: true, image: '' },
   { address: '1300 W Huron', neighborhood: 'West Side', units: '2', bedrooms: '4', type: 'Long-term rental', acquisitionDate: '', purchasePrice: '$280K', salePrice: '$575K', saleDate: '', is1031: true, image: '' },
-  { address: '1615 Peach St', neighborhood: 'Northside', units: '3', bedrooms: '5', type: 'Long-term rental', acquisitionDate: '', purchasePrice: '$425K', salePrice: '$870K', saleDate: '', is1031: true, image: '' },
+  { address: '1615 Peach St', neighborhood: 'Northside', units: '3', bedrooms: '5', type: 'Long-term rental', acquisitionDate: '', purchasePrice: '$425K', salePrice: '$870K', saleDate: '', is1031: true, image: '/properties/1615-peach.jpg' },
   { address: '819 W Washington', neighborhood: 'Old West Side', units: '2', bedrooms: '2', type: 'Long-term rental', acquisitionDate: '', purchasePrice: '$325K', salePrice: '$480K', saleDate: '', is1031: true, image: '' },
   { address: '523 W Washington St', neighborhood: '', units: '2', bedrooms: '4', type: 'Long-term rental', acquisitionDate: '', purchasePrice: '$525K', salePrice: '$685K', saleDate: '', is1031: true, image: '' },
 ];
