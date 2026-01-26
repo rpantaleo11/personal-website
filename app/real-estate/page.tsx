@@ -31,7 +31,7 @@ const pastHoldings = [
   { address: '1218 W Huron', neighborhood: 'West Side', units: '2', bedrooms: '4', type: 'Long-term rental', acquisitionDate: '', purchasePrice: '$320K', salePrice: '$575K', saleDate: '', is1031: true, image: '/properties/1218-w-huron.jpg' },
   { address: '1300 W Huron', neighborhood: 'West Side', units: '2', bedrooms: '4', type: 'Long-term rental', acquisitionDate: '', purchasePrice: '$280K', salePrice: '$575K', saleDate: '', is1031: true, image: '/properties/1300-w-huron.jpg' },
   { address: '1615 Peach St', neighborhood: 'Northside', units: '3', bedrooms: '5', type: 'Long-term rental', acquisitionDate: '', purchasePrice: '$425K', salePrice: '$870K', saleDate: '', is1031: true, image: '/properties/1615-peach.jpg' },
-  { address: '819 W Washington', neighborhood: 'Old West Side', units: '2', bedrooms: '2', type: 'Long-term rental', acquisitionDate: '', purchasePrice: '$325K', salePrice: '$480K', saleDate: '', is1031: true, image: '' },
+  { address: '819 W Washington', neighborhood: 'Old West Side', units: '2', bedrooms: '2', type: 'Long-term rental', acquisitionDate: '', purchasePrice: '$325K', salePrice: '$480K', saleDate: '', is1031: true, image: '/properties/819-w-washington.jpg' },
   { address: '523 W Washington St', neighborhood: '', units: '2', bedrooms: '4', type: 'Long-term rental', acquisitionDate: '', purchasePrice: '$525K', salePrice: '$685K', saleDate: '', is1031: true, image: '/properties/523-w-washington.jpg' },
 ];
 
