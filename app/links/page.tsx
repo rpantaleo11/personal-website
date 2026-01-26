@@ -2,18 +2,21 @@
 
 import { motion } from 'framer-motion';
 
-const links = [
+const leftLinks = [
   { title: 'About Me', description: 'My story and what I\'m building', href: '/about' },
-  { title: 'Pivotal Consulting Group', description: 'Growth marketing for B2B and e-commerce', href: 'https://www.pivotal-consulting-group.com' },
+  { title: 'Pivotal Consulting', description: 'Growth marketing for B2B and e-commerce', href: 'https://www.pivotal-consulting-group.com' },
+  { title: 'Real Estate Portfolio', description: '12 properties, 91 bedrooms in Ann Arbor', href: '/real-estate' },
+];
+
+const rightLinks = [
   { title: 'Behind the CMO', description: 'Newsletter for marketing leaders', href: 'https://www.behindthecmo.com' },
   { title: 'The Michigander', description: 'Local Ann Arbor newsletter', href: 'https://www.michigander.org' },
-  { title: 'Real Estate Portfolio', description: '12 properties, 91 bedrooms in Ann Arbor', href: '/real-estate' },
 ];
 
 export default function Links() {
   return (
     <div className="min-h-screen bg-[#223127] py-16 px-6">
-      <div className="max-w-md mx-auto">
+      <div className="max-w-2xl mx-auto">
         {/* Profile Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -36,23 +39,53 @@ export default function Links() {
           </p>
         </motion.div>
 
-        {/* Links */}
-        <div className="space-y-4 mb-8">
-          {links.map((link, index) => (
-            <motion.a
-              key={link.title}
-              href={link.href}
-              target={link.href.startsWith('http') ? '_blank' : undefined}
-              rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+        {/* Two Column Links */}
+        <div className="grid md:grid-cols-2 gap-6 mb-8">
+          {/* Left Column */}
+          <div className="space-y-4">
+            {leftLinks.map((link, index) => (
+              <motion.a
+                key={link.title}
+                href={link.href}
+                target={link.href.startsWith('http') ? '_blank' : undefined}
+                rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+                className="block bg-cream-100 rounded-lg p-4 border-l-4 border-eucalyptus-500 hover:border-eucalyptus-600 hover:shadow-lg transition-all duration-200"
+              >
+                <h2 className="font-semibold text-charcoal-900">{link.title}</h2>
+                <p className="text-sm text-charcoal-500">{link.description}</p>
+              </motion.a>
+            ))}
+          </div>
+
+          {/* Right Column */}
+          <div className="space-y-4">
+            <motion.h3
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="block bg-cream-100 rounded-lg p-4 border-l-4 border-eucalyptus-500 hover:border-eucalyptus-600 hover:shadow-lg transition-all duration-200"
+              transition={{ duration: 0.5 }}
+              className="text-sm font-semibold text-cream-200 uppercase tracking-wide"
             >
-              <h2 className="font-semibold text-charcoal-900">{link.title}</h2>
-              <p className="text-sm text-charcoal-500">{link.description}</p>
-            </motion.a>
-          ))}
+              Media
+            </motion.h3>
+            {rightLinks.map((link, index) => (
+              <motion.a
+                key={link.title}
+                href={link.href}
+                target={link.href.startsWith('http') ? '_blank' : undefined}
+                rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.1 + index * 0.1 }}
+                className="block bg-cream-100 rounded-lg p-4 border-l-4 border-eucalyptus-500 hover:border-eucalyptus-600 hover:shadow-lg transition-all duration-200"
+              >
+                <h2 className="font-semibold text-charcoal-900">{link.title}</h2>
+                <p className="text-sm text-charcoal-500">{link.description}</p>
+              </motion.a>
+            ))}
+          </div>
         </div>
 
         {/* CTA */}
